@@ -32,7 +32,7 @@ public class DrawIoParser
                         {
                             String mxfileValue = value.substring(startTagIndex, endTagIndex + endTag.length());
                             String decodedMXFileValue = EncodingUtil.urlDecode(mxfileValue, 'UTF-8');
-                            if(!String.isEmpty(decodedMXFileValue)) xmlContent = decodedMXFileValue;
+                            if (!String.isEmpty(decodedMXFileValue)) xmlContent = decodedMXFileValue;
                         }
                         else
                         {
