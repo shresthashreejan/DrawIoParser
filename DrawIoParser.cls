@@ -21,7 +21,7 @@ public class DrawIoParser
                 {
                     String key = tEXtParts[i];
                     String value = tEXtParts[i + 1];
-                    if (key == 'mxfile')
+                    if (key == MXFILE)
                     {
                         String startTag = '%3CmxGraphModel';
                         String endTag = '%2FmxGraphModel';
